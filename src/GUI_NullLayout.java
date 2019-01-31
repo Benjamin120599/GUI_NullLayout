@@ -47,6 +47,12 @@ class VentanaPrincipal extends JFrame {
 			radioButton1.setBackground(Color.WHITE);
 		add(radioButton1);
 		
+		JRadioButton radioButton2 = new JRadioButton("All fields.");
+			radioButton2.setBounds(15, 220, 280, 30);
+			radioButton2.setFont(Titulo);
+			radioButton2.setBackground(Color.WHITE);
+		add(radioButton2);
+		
 	}
 	
 	public void configurar() {
