@@ -41,16 +41,20 @@ class VentanaPrincipal extends JFrame {
 			textField1.setBounds(18, 140, 270, 30);
 		add(textField1);
 		
+		ButtonGroup bg = new ButtonGroup();
+		
 		JRadioButton radioButton1 = new JRadioButton("   Only required fields.");
 			radioButton1.setBounds(15, 190, 280, 30);
 			radioButton1.setFont(Titulo);
 			radioButton1.setBackground(Color.WHITE);
+		bg.add(radioButton1);
 		add(radioButton1);
 		
 		JRadioButton radioButton2 = new JRadioButton("   All fields.");
 			radioButton2.setBounds(15, 215, 280, 30);
 			radioButton2.setFont(Titulo);
 			radioButton2.setBackground(Color.WHITE);
+		bg.add(radioButton2);
 		add(radioButton2);
 		
 		JLabel label4 = new JLabel("(Edit required fields in");
@@ -94,6 +98,30 @@ class VentanaPrincipal extends JFrame {
 			label8.setBounds(20, 410, 280, 30);
 			label8.setFont(Titulo);
 		add(label8);
+		
+		JCheckBox checkBox4 = new JCheckBox("<html>   Enable <b>evil</b> popup mode.</html>");
+			checkBox4.setBounds(15, 430, 280, 30);
+			checkBox4.setFont(Titulo);
+			checkBox4.setBackground(Color.WHITE);
+		add(checkBox4);
+	
+		JCheckBox checkBox5 = new JCheckBox("<html>   Disable all <b>JavaScript</b>.</html>");
+			checkBox5.setBounds(15, 455, 280, 30);
+			checkBox5.setFont(Titulo);
+			checkBox5.setBackground(Color.WHITE);
+		add(checkBox5);
+
+		JCheckBox checkBox6 = new JCheckBox("<html>   Include archive link.</html>");
+			checkBox6.setBounds(15, 480, 280, 30);
+			checkBox6.setFont(Titulo);
+			checkBox6.setBackground(Color.WHITE);
+		add(checkBox6);
+
+		JCheckBox checkBox7 = new JCheckBox("<html>   Include MonkeyRewards link.</html>");
+			checkBox7.setBounds(15, 505, 280, 30);
+			checkBox7.setFont(Titulo);
+			checkBox7.setBackground(Color.WHITE);
+		add(checkBox7);
 	}
 	
 	public void configurar() {
