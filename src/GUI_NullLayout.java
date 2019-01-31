@@ -48,24 +48,24 @@ class VentanaPrincipal extends JFrame {
 		add(radioButton1);
 		
 		JRadioButton radioButton2 = new JRadioButton("   All fields.");
-			radioButton2.setBounds(15, 220, 280, 30);
+			radioButton2.setBounds(15, 215, 280, 30);
 			radioButton2.setFont(Titulo);
 			radioButton2.setBackground(Color.WHITE);
 		add(radioButton2);
 		
 		JLabel label4 = new JLabel("(Edit required fields in");
-			label4.setBounds(40, 240, 280, 30);
+			label4.setBounds(40, 235, 280, 30);
 			label4.setFont(new Font("Arial", Font.PLAIN, 10));
 		add(label4);
 		
 		JLabel label5 = new JLabel("the form builder");
-			label5.setBounds(150, 240, 280, 30);
+			label5.setBounds(150, 235, 280, 30);
 			label5.setFont(new Font("Arial", Font.PLAIN, 10));
 			label5.setForeground(Color.BLUE);
 		add(label5);
 		
 		JLabel label6 = new JLabel(")");
-			label6.setBounds(225, 240, 280, 30);
+			label6.setBounds(225, 235, 280, 30);
 			label6.setFont(new Font("Arial", Font.PLAIN, 10));
 		add(label6);
 		
@@ -86,8 +86,14 @@ class VentanaPrincipal extends JFrame {
 			label7.setFont(Titulo);
 		add(label7);
 		
+		JTextField textField2 = new JTextField();
+			textField2.setBounds(18, 370, 270, 30);
+		add(textField2);
 		
-		
+		JLabel label8 = new JLabel("Enhace your form");
+			label8.setBounds(20, 410, 280, 30);
+			label8.setFont(Titulo);
+		add(label8);
 	}
 	
 	public void configurar() {
