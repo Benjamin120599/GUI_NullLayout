@@ -54,19 +54,19 @@ class VentanaPrincipal extends JFrame {
 		add(radioButton2);
 		
 		JLabel label4 = new JLabel("(Edit required fields in");
-			label4.setBounds(30, 240, 280, 30);
-			label4.setFont(Titulo);
+			label4.setBounds(40, 240, 280, 30);
+			label4.setFont(new Font("Arial", Font.PLAIN, 10));
 		add(label4);
 		
-		JLabel label5 = new JLabel(" the form builder");
+		JLabel label5 = new JLabel("the form builder");
 			label5.setBounds(150, 240, 280, 30);
-			label5.setFont(Titulo);
+			label5.setFont(new Font("Arial", Font.PLAIN, 10));
 			label5.setForeground(Color.BLUE);
 		add(label5);
 		
 		JLabel label6 = new JLabel(")");
-			label6.setBounds(240, 240, 280, 30);
-			label5.setFont(Titulo);
+			label6.setBounds(225, 240, 280, 30);
+			label6.setFont(new Font("Arial", Font.PLAIN, 10));
 		add(label6);
 		
 		JCheckBox checkBox2 = new JCheckBox("   Interest group field.");
@@ -80,6 +80,12 @@ class VentanaPrincipal extends JFrame {
 			checkBox3.setFont(Titulo);
 			checkBox3.setBackground(Color.WHITE);
 		add(checkBox3);
+		
+		JLabel label7 = new JLabel("Set form width,");
+			label7.setBounds(20, 340, 280, 30);
+			label7.setFont(Titulo);
+		add(label7);
+		
 		
 		
 	}
