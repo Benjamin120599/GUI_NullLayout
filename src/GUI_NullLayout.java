@@ -32,10 +32,14 @@ class VentanaPrincipal extends JFrame {
 		add(label3);
 		
 		JCheckBox checkBox1 = new JCheckBox("A title for you form.");
-			checkBox1.setBounds(15, 100, 280, 50);
+			checkBox1.setBounds(15, 100, 280, 40);
 			checkBox1.setFont(Titulo);
 			checkBox1.setBackground(Color.WHITE);
 		add(checkBox1);
+		
+		JTextField textField1 = new JTextField("Subscribe to our mailing list.");
+			textField1.setBounds(18, 140, 270, 30);
+		add(textField1);
 		
 	}
 	
