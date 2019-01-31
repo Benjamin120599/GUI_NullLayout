@@ -32,7 +32,7 @@ class VentanaPrincipal extends JFrame {
 		add(label3);
 		
 		JCheckBox checkBox1 = new JCheckBox("A title for you form.");
-			checkBox1.setBounds(15, 100, 280, 40);
+			checkBox1.setBounds(15, 100, 280, 30);
 			checkBox1.setFont(Titulo);
 			checkBox1.setBackground(Color.WHITE);
 		add(checkBox1);
@@ -40,6 +40,12 @@ class VentanaPrincipal extends JFrame {
 		JTextField textField1 = new JTextField("Subscribe to our mailing list.");
 			textField1.setBounds(18, 140, 270, 30);
 		add(textField1);
+		
+		JRadioButton radioButton1 = new JRadioButton("Only required fields.");
+			radioButton1.setBounds(15, 190, 280, 30);
+			radioButton1.setFont(Titulo);
+			radioButton1.setBackground(Color.WHITE);
+		add(radioButton1);
 		
 	}
 	
