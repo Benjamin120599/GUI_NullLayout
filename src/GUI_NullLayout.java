@@ -34,7 +34,7 @@ class VentanaPrincipal extends JFrame {
 		JCheckBox checkBox1 = new JCheckBox("A title for you form.");
 			checkBox1.setBounds(15, 100, 280, 50);
 			checkBox1.setFont(Titulo);
-			checkBox1.setBorderPainted(false);
+			checkBox1.setBorder(null);
 			checkBox1.setBackground(Color.WHITE);
 		add(checkBox1);
 		
