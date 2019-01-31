@@ -69,6 +69,13 @@ class VentanaPrincipal extends JFrame {
 			label5.setFont(Titulo);
 		add(label6);
 		
+		JCheckBox checkBox2 = new JCheckBox("   Interest group field.");
+			checkBox2.setBounds(15, 280, 280, 30);
+			checkBox2.setFont(Titulo);
+			checkBox2.setBackground(Color.WHITE);
+		add(checkBox2);
+		
+		
 	}
 	
 	public void configurar() {
