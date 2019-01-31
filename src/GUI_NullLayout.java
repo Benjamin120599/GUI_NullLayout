@@ -75,6 +75,12 @@ class VentanaPrincipal extends JFrame {
 			checkBox2.setBackground(Color.WHITE);
 		add(checkBox2);
 		
+		JCheckBox checkBox3 = new JCheckBox("   Required Fields Indicators.");
+			checkBox3.setBounds(15, 305, 280, 30);
+			checkBox3.setFont(Titulo);
+			checkBox3.setBackground(Color.WHITE);
+		add(checkBox3);
+		
 		
 	}
 	
