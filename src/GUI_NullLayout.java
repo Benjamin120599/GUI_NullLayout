@@ -31,27 +31,43 @@ class VentanaPrincipal extends JFrame {
 			label3.setFont(new Font("Arial", Font.PLAIN, 12));
 		add(label3);
 		
-		JCheckBox checkBox1 = new JCheckBox("A title for you form.");
+		JCheckBox checkBox1 = new JCheckBox("   A title for you form.");
 			checkBox1.setBounds(15, 100, 280, 30);
 			checkBox1.setFont(Titulo);
 			checkBox1.setBackground(Color.WHITE);
 		add(checkBox1);
 		
-		JTextField textField1 = new JTextField("Subscribe to our mailing list.");
+		JTextField textField1 = new JTextField("   Subscribe to our mailing list.");
 			textField1.setBounds(18, 140, 270, 30);
 		add(textField1);
 		
-		JRadioButton radioButton1 = new JRadioButton("Only required fields.");
+		JRadioButton radioButton1 = new JRadioButton("   Only required fields.");
 			radioButton1.setBounds(15, 190, 280, 30);
 			radioButton1.setFont(Titulo);
 			radioButton1.setBackground(Color.WHITE);
 		add(radioButton1);
 		
-		JRadioButton radioButton2 = new JRadioButton("All fields.");
+		JRadioButton radioButton2 = new JRadioButton("   All fields.");
 			radioButton2.setBounds(15, 220, 280, 30);
 			radioButton2.setFont(Titulo);
 			radioButton2.setBackground(Color.WHITE);
 		add(radioButton2);
+		
+		JLabel label4 = new JLabel("(Edit required fields in");
+			label4.setBounds(30, 240, 280, 30);
+			label4.setFont(Titulo);
+		add(label4);
+		
+		JLabel label5 = new JLabel(" the form builder");
+			label5.setBounds(150, 240, 280, 30);
+			label5.setFont(Titulo);
+			label5.setForeground(Color.BLUE);
+		add(label5);
+		
+		JLabel label6 = new JLabel(")");
+			label6.setBounds(240, 240, 280, 30);
+			label5.setFont(Titulo);
+		add(label6);
 		
 	}
 	
