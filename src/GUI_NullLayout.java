@@ -58,22 +58,11 @@ class VentanaPrincipal extends JFrame {
 		bg.add(radioButton2);
 		add(radioButton2);
 		
-		JLabel label4 = new JLabel("(Edit required fields in");
+		JLabel label4 = new JLabel("<html><body> (Edit required fields in<font color= blue> the form builder </font> ). </body></html>");
 			label4.setBounds(40, 225, 280, 30);
 			label4.setFont(new Font("Arial", Font.PLAIN, 10));
 		add(label4);
-		
-		JLabel label5 = new JLabel("the form builder");
-			label5.setBounds(150, 225, 280, 30);
-			label5.setFont(new Font("Arial", Font.PLAIN, 10));
-			label5.setForeground(Color.BLUE);
-		add(label5);
-		
-		JLabel label6 = new JLabel(")");
-			label6.setBounds(225, 225, 280, 30);
-			label6.setFont(new Font("Arial", Font.PLAIN, 10));
-		add(label6);
-		
+				
 		JCheckBox checkBox2 = new JCheckBox("   Interest group field.");
 			checkBox2.setBounds(15, 260, 280, 30);
 			checkBox2.setFont(Titulo);
@@ -118,7 +107,7 @@ class VentanaPrincipal extends JFrame {
 			checkBox6.setBackground(Color.WHITE);
 		add(checkBox6);
 
-		JCheckBox checkBox7 = new JCheckBox("<html>   Include MonkeyRewards link.</html>");
+		JCheckBox checkBox7 = new JCheckBox("<html><body>   Include <font color= blue> MonkeyRewards </font> link. </body></html>");
 			checkBox7.setBounds(15, 485, 280, 30);
 			checkBox7.setFont(Titulo);
 			checkBox7.setBackground(Color.WHITE);
@@ -133,55 +122,54 @@ class VentanaPrincipal extends JFrame {
 			
 			panel1.setLayout(null);
 			panel1.setBackground(Color.WHITE);
-			panel1.setBounds(310, 40, 400, 300);
+			panel1.setBounds(310, 40, 400, 250);
 			panel1.setBorder(BorderFactory.createTitledBorder(""));
 		
 		add(panel1);
 		
 		JLabel label11 = new JLabel("Email Adress. *");
-			label11.setBounds(15, 70, 280, 30);
+			label11.setBounds(15, 10, 280, 30);
 			label11.setFont(Titulo);
 		panel1.add(label11);	
 		
 		JTextField textField4 = new JTextField();
-			textField4.setBounds(15, 100, 350, 30);
+			textField4.setBounds(15, 40, 350, 30);
 		panel1.add(textField4);
 		
 		JLabel label12 = new JLabel("First Name.");
-			label12.setBounds(15, 130, 280, 30);
+			label12.setBounds(15, 70, 280, 30);
 			label12.setFont(Titulo);
 		panel1.add(label12);
 		
 		JTextField textField5 = new JTextField();
-			textField5.setBounds(15, 160, 350, 30);
+			textField5.setBounds(15, 100, 350, 30);
 		panel1.add(textField5);
 		
 		JLabel label13 = new JLabel("Last Name.");
-			label13.setBounds(15, 190, 280, 30);
+			label13.setBounds(15, 130, 280, 30);
 			label13.setFont(Titulo);
 		panel1.add(label13);
 		
 		JTextField textField6 = new JTextField();
-			textField6.setBounds(15, 220, 350, 30);
+			textField6.setBounds(15, 160, 350, 30);
 		panel1.add(textField6);
 		
-		ImageIcon imagen = new ImageIcon("./src/icon.png");
-		ImageIcon otraImagen = new ImageIcon(imagen.getImage().getScaledInstance(200, -1, Image.SCALE_DEFAULT));
+		ImageIcon imagen = new ImageIcon("./src/imagen.png");
+		ImageIcon otraImagen = new ImageIcon(imagen.getImage().getScaledInstance(160, 50, Image.SCALE_DEFAULT));
 		
-		JButton button1 = new JButton();
-			//button1.setBounds(15, 260, 100, 25);
-			JButton boton1 = new JButton(otraImagen);
+		JButton button1 = new JButton(otraImagen);
+			button1.setBounds(15, 200, 150, 30);
 		panel1.add(button1);
 		
 		JLabel label14 = new JLabel("Copy/paste on to your site");
-			label14.setBounds(310, 340, 280, 30);
+			label14.setBounds(310, 300, 280, 30);
 			label14.setFont(new Font("Arial", Font.PLAIN, 14));
 		add(label14);
 		
 		JPanel panel2 = new JPanel();
 			panel2.setLayout(null);
 			panel2.setBackground(Color.WHITE);
-			panel2.setBounds(310, 370, 400, 150);
+			panel2.setBounds(310, 330, 400, 150);
 			panel2.setBorder(BorderFactory.createTitledBorder(""));
 		add(panel2);
 		
