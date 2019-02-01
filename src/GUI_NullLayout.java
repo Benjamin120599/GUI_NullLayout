@@ -138,11 +138,6 @@ class VentanaPrincipal extends JFrame {
 		
 		add(panel1);
 		
-		JLabel label10 = new JLabel("User. *");
-			label10.setBounds(15, 10, 280, 30);
-			label10.setFont(Titulo);
-		panel1.add(label10);
-		
 		JTextField textField3 = new JTextField();
 			textField3.setBounds(15, 40, 350, 30);
 		panel1.add(textField3);
@@ -174,15 +169,25 @@ class VentanaPrincipal extends JFrame {
 			textField6.setBounds(15, 220, 350, 30);
 		panel1.add(textField6);
 		
-		JButton button1 = new JButton("Subscribe");
-			button1.setBounds(15, 260, 100, 25);
+		ImageIcon imagen = new ImageIcon("./src/icon.png");
+		ImageIcon otraImagen = new ImageIcon(imagen.getImage().getScaledInstance(200, -1, Image.SCALE_DEFAULT));
+		
+		JButton button1 = new JButton();
+			//button1.setBounds(15, 260, 100, 25);
+			JButton boton1 = new JButton(otraImagen);
 		panel1.add(button1);
 		
-		JLabel label14 = new JLabel("Copy/paste on to yout site");
+		JLabel label14 = new JLabel("Copy/paste on to your site");
 			label14.setBounds(310, 340, 280, 30);
 			label14.setFont(new Font("Arial", Font.PLAIN, 14));
 		add(label14);
 		
+		JPanel panel2 = new JPanel();
+			panel2.setLayout(null);
+			panel2.setBackground(Color.WHITE);
+			panel2.setBounds(310, 370, 400, 150);
+			panel2.setBorder(BorderFactory.createTitledBorder(""));
+		add(panel2);
 		
 	}
 	
