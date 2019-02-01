@@ -136,6 +136,12 @@ class VentanaPrincipal extends JFrame {
 			panel1.setBorder(BorderFactory.createTitledBorder(""));
 		add(panel1);
 		
+		JLabel label10 = new JLabel("User.");
+			label10.setBounds(15, 10, 280, 30);
+			label10.setFont(Titulo);
+		panel1.add(label10);
+			
+		
 		
 		
 	}
