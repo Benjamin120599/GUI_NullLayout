@@ -174,11 +174,14 @@ class VentanaPrincipal extends JFrame {
 			textField6.setBounds(15, 220, 350, 30);
 		panel1.add(textField6);
 		
-		
 		JButton button1 = new JButton("Subscribe");
 			button1.setBounds(15, 260, 100, 25);
 		panel1.add(button1);
 		
+		JLabel label14 = new JLabel("Copy/paste on to yout site");
+			label14.setBounds(310, 340, 280, 30);
+			label14.setFont(new Font("Arial", Font.PLAIN, 14));
+		add(label14);
 		
 		
 	}
