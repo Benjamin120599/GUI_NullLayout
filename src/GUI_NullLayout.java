@@ -130,10 +130,12 @@ class VentanaPrincipal extends JFrame {
 		add(label9);
 		
 		JPanel panel1 = new JPanel();
+			
 			panel1.setLayout(null);
 			panel1.setBackground(Color.WHITE);
-			panel1.setBounds(310, 40, 400, 225);
+			panel1.setBounds(310, 40, 400, 300);
 			panel1.setBorder(BorderFactory.createTitledBorder(""));
+		
 		add(panel1);
 		
 		JLabel label10 = new JLabel("User. *");
@@ -168,9 +170,16 @@ class VentanaPrincipal extends JFrame {
 			label13.setFont(Titulo);
 		panel1.add(label13);
 		
-	}
-	
-	public void configurar() {
+		JTextField textField6 = new JTextField();
+			textField6.setBounds(15, 220, 350, 30);
+		panel1.add(textField6);
+		
+		
+		JButton button1 = new JButton("Subscribe");
+			button1.setBounds(15, 260, 100, 25);
+		panel1.add(button1);
+		
+		
 		
 	}
 	
