@@ -150,7 +150,9 @@ class VentanaPrincipal extends JFrame {
 			label11.setFont(Titulo);
 		panel1.add(label11);	
 		
-		
+		JTextField textField4 = new JTextField();
+			textField4.setBounds(15, 100, 350, 30);
+		panel1.add(textField4);
 		
 	}
 	
