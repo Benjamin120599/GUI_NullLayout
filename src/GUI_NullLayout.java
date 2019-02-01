@@ -138,10 +138,6 @@ class VentanaPrincipal extends JFrame {
 		
 		add(panel1);
 		
-		JTextField textField3 = new JTextField();
-			textField3.setBounds(15, 40, 350, 30);
-		panel1.add(textField3);
-		
 		JLabel label11 = new JLabel("Email Adress. *");
 			label11.setBounds(15, 70, 280, 30);
 			label11.setFont(Titulo);
