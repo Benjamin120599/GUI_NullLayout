@@ -8,7 +8,8 @@ class VentanaPrincipal extends JFrame {
 	public VentanaPrincipal() {
 		getContentPane().setLayout(null); //Layout del JFrame
 		getContentPane().setBackground(Color.WHITE);
-		setSize(900, 600);
+		setSize(750, 600);
+		
 		setTitle("FORMULARIO");
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -127,6 +128,16 @@ class VentanaPrincipal extends JFrame {
 			label9.setBounds(310, 8, 280, 30);
 			label9.setFont(new Font("Arial", Font.BOLD, 14));
 		add(label9);
+		
+		JPanel panel1 = new JPanel();
+			panel1.setLayout(null);
+			panel1.setBackground(Color.WHITE);
+			panel1.setBounds(310, 40, 400, 225);
+			panel1.setBorder(BorderFactory.createTitledBorder(""));
+		add(panel1);
+		
+		
+		
 	}
 	
 	public void configurar() {
