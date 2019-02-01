@@ -163,6 +163,11 @@ class VentanaPrincipal extends JFrame {
 			textField5.setBounds(15, 160, 350, 30);
 		panel1.add(textField5);
 		
+		JLabel label13 = new JLabel("Last Name.");
+			label13.setBounds(15, 190, 280, 30);
+			label13.setFont(Titulo);
+		panel1.add(label13);
+		
 	}
 	
 	public void configurar() {
